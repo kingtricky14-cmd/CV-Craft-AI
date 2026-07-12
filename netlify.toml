@@ -1,0 +1,13 @@
+# Netlify Configuration for CVCraft AI
+
+[build]
+  # Frontend build command
+  command = "cd frontend && npm install && npm run build"
+  # Directory to deploy
+  publish = "frontend/dist"
+
+# Redirect all non-asset requests to index.html (for React SPA routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
