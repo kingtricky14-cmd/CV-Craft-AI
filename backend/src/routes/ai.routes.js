@@ -1,0 +1,12 @@
+import { Router } from 'express';
+import { requireAuth } from '../middleware/auth.js';
+import { generateSummary, generateCoverLetter } from '../controllers/ai.controller.js';
+
+const router = Router();
+
+router.use(requireAuth);
+
+router.post('/summary', generateSummary);
+router.post('/cover-letter', generateCoverLetter);
+
+export default router;

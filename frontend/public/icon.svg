@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#f97316"/>
+  
+  <!-- Document icon -->
+  <g transform="translate(128, 64)">
+    <!-- Document body -->
+    <rect x="0" y="0" width="256" height="320" rx="12" fill="#ffffff"/>
+    
+    <!-- Header lines (representing text) -->
+    <rect x="20" y="30" width="216" height="8" rx="4" fill="#e5e7eb"/>
+    <rect x="20" y="55" width="216" height="6" rx="3" fill="#d1d5db"/>
+    <rect x="20" y="72" width="216" height="6" rx="3" fill="#d1d5db"/>
+    
+    <!-- Content lines -->
+    <rect x="20" y="110" width="216" height="5" rx="2.5" fill="#d1d5db"/>
+    <rect x="20" y="125" width="200" height="5" rx="2.5" fill="#d1d5db"/>
+    <rect x="20" y="140" width="216" height="5" rx="2.5" fill="#d1d5db"/>
+    <rect x="20" y="155" width="180" height="5" rx="2.5" fill="#d1d5db"/>
+    
+    <!-- Highlight circle (AI feature) -->
+    <circle cx="220" cy="200" r="35" fill="#3b82f6" opacity="0.9"/>
+    <text x="220" y="210" text-anchor="middle" font-size="40" fill="white" font-weight="bold">✨</text>
+  </g>
+</svg>
